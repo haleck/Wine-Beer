@@ -1,0 +1,494 @@
+/* стандартные настройки проекта */
+* {
+  margin: 0;
+  padding: 0;
+}
+a:hover,
+a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* цвета! */
+/* Общая разметка */
+body {
+  background-color: black;
+  background-size: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+/* Первый блок */
+.main {
+  background: url(../images/bruno-martins-442161-unsplash.png) center no-repeat;
+  background-size: cover;
+  color: #a9a9a9;
+}
+.main-menu {
+  padding-top: 24px;
+}
+.main-menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.main-menu-location-logo {
+  display: inline;
+  margin-left: 36px;
+  color: #a9a9a9;
+  font-weight: 100;
+}
+.main-menu-location span {
+  marin-left: 10px;
+}
+.main-menu-navigation {
+  color: #a9a9a9;
+  text-decoration: none;
+  font-size: 16px;
+  flex-grow: 3;
+  justify-content: space-around;
+  display: inline-flex;
+}
+.main-menu-navigation a:hover {
+  color: #e5e5e5;
+}
+.main-menu-profile-icons {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.main-content {
+  font-size: 14px;
+  margin-top: 255px;
+  text-align: center;
+}
+.main-content-arrow {
+  display: block;
+  margin-top: 90px;
+  margin-bottom: 125px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.main-content-dots {
+  margin: 28px 0;
+}
+.main-content strong {
+  color: #CACACA;
+}
+.main-logo {
+  width: 325px;
+  height: 35px;
+}
+.location {
+  display: inline;
+  margin-left: 36px;
+  color: #fff;
+  font-weight: 100;
+}
+.Container {
+  padding: 0 81px;
+}
+/* Второй блок */
+.catalog {
+  margin-top: 65px;
+  color: #FFFFFF;
+}
+.catalog-title {
+  color: #FFFFFF;
+}
+.catalog-title-high {
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.catalog-champagne,
+.catalog-vine,
+.catalog-strongalc,
+.catalog-beer {
+  padding-top: 80px;
+  padding-left: 85px;
+  padding-bottom: 28px;
+}
+.catalog-type {
+  font-size: 24px;
+}
+.catalog-description {
+  font-size: 14px;
+  color: #a9a9a9;
+  padding: 25px 125px 55px 0;
+}
+.catalog-champagne {
+  background: url(../images/champagne-top-up1.png) center no-repeat;
+  background-size: cover;
+}
+.catalog-vine {
+  background: url(../images/alfonso-scarpa-521971-unsplash1.png) center no-repeat;
+  background-size: cover;
+}
+.catalog-strongalc {
+  background: url(../images/alexandru-boicu-1444045-unsplash1.png) center no-repeat;
+  background-size: cover;
+}
+.catalog-beer {
+  background: url(../images/elevate-755022-unsplash1.png) center no-repeat;
+  background-size: cover;
+}
+/* Третий блок */
+.offer {
+  background: url("../images/v285-binn-wave_texture-04.png") center no-repeat;
+  background-size: cover;
+}
+.offer-wrapper {
+  background: url(../images/gradient.png);
+}
+.offer-head {
+  margin: 90px 0 60px 0;
+}
+.offer-high-title {
+  color: #FFFFFF;
+  font-size: 36px;
+}
+.offer-image {
+  margin-left: 120px;
+}
+.offer-name,
+.offer-description {
+  color: #a9a9a9;
+  font-size: 14px;
+}
+.offer-name {
+  margin-top: 36px;
+  font-size: 18px;
+}
+.offer-price {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 136px;
+}
+/*Блок подобрать вино */
+.drinks-card {
+  background: url(../images/alexander-pogorelsky-1438800-unsplash.png) center no-repeat;
+  background-size: cover;
+  padding: 133px 0;
+}
+.drinks-card-trigger {
+  padding: 29px 58px 20px 43px;
+  background: rgba(144, 143, 143, 0.13);
+  backdrop-filter: blur(10px);
+}
+.drinks-card h1 {
+  color: #FFFFFF;
+  font-size: 34px;
+  margin-bottom: 37px;
+}
+.drinks-card-description {
+  margin-bottom: 51px;
+  font-size: 16px;
+  color: #cacaca;
+}
+.drinks-card button {
+  width: 226px;
+  height: 58px;
+  color: #FFFFFF;
+  background-color: #020202;
+  border-color: #020202;
+}
+/* Юдлк интересное о вине */
+.facts {
+  color: #FFFFFF;
+}
+.facts-main-header {
+  margin: 85px 0 50px 0;
+}
+.facts-links {
+  margin-bottom: 110px;
+}
+.facts-description {
+  color: #cacaca;
+}
+.facts-header {
+  font-size: 26px;
+}
+.facts-shrimp,
+.facts-vine-fest {
+  padding: 350px 40px 26px 40px;
+}
+.facts-shrimp {
+  background: url(../images/cuisine-delicious-dinner-1998920.png) center no-repeat;
+  background-size: cover;
+}
+.facts-vine-fest {
+  background: url(../images/roberta-sorge-141081-unsplash.png) center no-repeat;
+}
+.facts-advice {
+  background: url(../images/lefteris-kallergis-1458809-unsplash.png) 100% 250px;
+  background-size: cover;
+  padding: 80px 60px 18px 18px;
+}
+.facts-story {
+  margin-top: 30px;
+  background: url(../images/wendymiao-chen-1438316-unsplash.png) 100% 250px;
+  background-size: cover;
+  padding: 80px 60px 18px 18px;
+}
+/* Нижний блок со ссылками */
+.links {
+  padding: 80px 0 40px 0;
+  background-color: #0b0b0b;
+  color: #a9a9a9;
+  font-size: 14px;
+}
+.links div {
+  margin-bottom: 16px;
+}
+.links-phone {
+  color: #e5e5e5;
+}
+.links-social {
+  display: flex;
+  justify-content: space-between;
+}
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.links-header {
+  color: #e5e5e5;
+  font-weight: #FFFFFF;
+  font-size: 16px;
+}
+/* Футер */
+.footer {
+  background-color: black;
+  color: #a9a9a9;
+  font-size: 11px;
+}
+.footer-row {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-links {
+  color: #a9a9a9;
+}
+.line-space {
+  line-height: 15px;
+  color: black;
+}
+.header-burger {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .line-space {
+    display: none;
+  }
+  .offer-line-delete {
+    display: none;
+  }
+  .main-menu-location-logo {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 996px) {
+  .Container {
+    padding: 0 40px;
+  }
+  .main-content {
+    font-size: 18px;
+  }
+}
+@media (max-width: 850px) {
+  .main-menu-location a img {
+    width: 150px;
+  }
+}
+@media (max-width: 767px) {
+  body.lock {
+    overflow: hidden;
+  }
+  .main-menu-location a img {
+    padding-left: 10px;
+  }
+  .main-menu-location-logo {
+    display: inline-block;
+  }
+  .main-content {
+    font-size: 16px;
+    margin: 200px 0 100px 0;
+    padding-bottom: 0px;
+  }
+  .main-menu-location {
+    height: 80px;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .main-menu-location-close {
+    z-index: 2;
+  }
+  .main-menu-location.active {
+    position: fixed;
+    top: 24px;
+  }
+  .main-menu-navigation,
+  .main-menu-profile-icons {
+    padding: 50px 30px 0 30px;
+    font-size: 20px;
+    display: none;
+  }
+  .main-menu-navigation.active,
+  .main-menu-profile-icons.active {
+    display: block;
+    position: fixed;
+    z-index: 3;
+  }
+  .main-menu-navigation.active div {
+    margin-top: 50px;
+  }
+  .main-menu-profile-icons.active {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+  }
+  .main-menu-profile-icons.active img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+  .main-menu-burger:after,
+  .main-menu-burger:before {
+    content: '';
+    background-color: #e5e5e5;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    right: 10px;
+    z-index: 2;
+    transition: all 0.3s ease 0s;
+  }
+  .main-menu-burger:before {
+    top: 20px;
+  }
+  .main-menu-burger:after {
+    top: 40px;
+  }
+  .main-menu-burger-close {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0b0b0b;
+    top: -100%;
+    transition: all 0.3s ease 0s;
+  }
+  .main-menu-burger-close.active {
+    top: 0;
+  }
+  .main-menu-burger span {
+    background-color: #e5e5e5;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    right: 10px;
+    top: 30px;
+    z-index: 2;
+    transition: all 0.3s ease 0s;
+  }
+  .main-menu-burger.active:before {
+    transform: rotate(45deg);
+    top: 30px;
+    position: fixed;
+  }
+  .main-menu-burger.active:after {
+    transform: rotate(-45deg);
+    top: 30px;
+    position: fixed;
+  }
+  .main-menu-burger.active span {
+    transform: scale(0);
+    position: fixed;
+  }
+  .Container {
+    padding: 0 10px;
+    margin: 0;
+  }
+  .drinks-card-trigger {
+    padding: 29px 160px 20px 160px;
+  }
+  .catalog-title-high {
+    padding-left: 15px;
+  }
+  .catalog-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .links {
+    padding: 30px 0 0 0;
+    margin-bottom: -25px;
+    margin-top: -40px;
+  }
+  .links-social {
+    display: flex;
+    justify-content: space-around;
+  }
+  .links-wrapper {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 491px) {
+  .main-content {
+    margin-top: 100px;
+  }
+  .main-content-arrow {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .main-logo {
+    width: 300px;
+  }
+  .drinks-card-trigger {
+    padding: 29px 58px 20px 43px;
+  }
+  .offer-image {
+    margin-left: 20px;
+  }
+  .offer-line {
+    display: none;
+  }
+  .catalog-champagne,
+  .catalog-vine,
+  .catalog-strongalc,
+  .catalog-beer {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .links-wrapper {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+  }
+  .footer-row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
